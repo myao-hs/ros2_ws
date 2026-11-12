@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+mini_swarm/__init__.py
+mini_swarm/swarm.py
+mini_swarm.egg-info/PKG-INFO
+mini_swarm.egg-info/SOURCES.txt
+mini_swarm.egg-info/dependency_links.txt
+mini_swarm.egg-info/entry_points.txt
+mini_swarm.egg-info/requires.txt
+mini_swarm.egg-info/top_level.txt
+mini_swarm.egg-info/zip-safe
+resource/mini_swarm

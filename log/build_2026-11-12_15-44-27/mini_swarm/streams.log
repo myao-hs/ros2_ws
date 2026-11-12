@@ -1,0 +1,24 @@
+[2.562s] Invoking command in '/home/orin-dev/ros2_ws/build/mini_swarm': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/orin-dev/ros2_ws/build/mini_swarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-dev/ros2_ws/install/mini_swarm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin-dev/ros2_ws/build/mini_swarm/build --no-deps symlink_data
+[3.177s] running develop
+[3.562s] running egg_info
+[3.562s] creating mini_swarm.egg-info
+[3.599s] writing mini_swarm.egg-info/PKG-INFO
+[3.600s] writing dependency_links to mini_swarm.egg-info/dependency_links.txt
+[3.600s] writing entry points to mini_swarm.egg-info/entry_points.txt
+[3.601s] writing requirements to mini_swarm.egg-info/requires.txt
+[3.601s] writing top-level names to mini_swarm.egg-info/top_level.txt
+[3.601s] writing manifest file 'mini_swarm.egg-info/SOURCES.txt'
+[3.677s] reading manifest file 'mini_swarm.egg-info/SOURCES.txt'
+[3.677s] writing manifest file 'mini_swarm.egg-info/SOURCES.txt'
+[3.717s] running build_ext
+[3.718s] Creating /home/orin-dev/ros2_ws/install/mini_swarm/lib/python3.12/site-packages/mini-swarm.egg-link (link to .)
+[3.719s] Installing swarm script to /home/orin-dev/ros2_ws/install/mini_swarm/lib/mini_swarm
+[3.719s] 
+[3.720s] Installed /home/orin-dev/ros2_ws/build/mini_swarm
+[3.720s] running symlink_data
+[3.720s] creating /home/orin-dev/ros2_ws/install/mini_swarm/share/ament_index
+[3.721s] creating /home/orin-dev/ros2_ws/install/mini_swarm/share/ament_index/resource_index
+[3.721s] creating /home/orin-dev/ros2_ws/install/mini_swarm/share/ament_index/resource_index/packages
+[3.721s] symbolically linking /home/orin-dev/ros2_ws/build/mini_swarm/resource/mini_swarm -> /home/orin-dev/ros2_ws/install/mini_swarm/share/ament_index/resource_index/packages
+[3.721s] symbolically linking /home/orin-dev/ros2_ws/build/mini_swarm/package.xml -> /home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm
+[3.793s] Invoked command in '/home/orin-dev/ros2_ws/build/mini_swarm' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/orin-dev/ros2_ws/build/mini_swarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-dev/ros2_ws/install/mini_swarm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin-dev/ros2_ws/build/mini_swarm/build --no-deps symlink_data

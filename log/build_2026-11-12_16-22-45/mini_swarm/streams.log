@@ -1,0 +1,17 @@
+[2.294s] Invoking command in '/home/orin-dev/ros2_ws/build/mini_swarm': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/orin-dev/ros2_ws/build/mini_swarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-dev/ros2_ws/install/mini_swarm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin-dev/ros2_ws/build/mini_swarm/build --no-deps symlink_data
+[2.922s] running develop
+[3.324s] running egg_info
+[3.361s] writing mini_swarm.egg-info/PKG-INFO
+[3.362s] writing dependency_links to mini_swarm.egg-info/dependency_links.txt
+[3.362s] writing entry points to mini_swarm.egg-info/entry_points.txt
+[3.362s] writing requirements to mini_swarm.egg-info/requires.txt
+[3.363s] writing top-level names to mini_swarm.egg-info/top_level.txt
+[3.441s] reading manifest file 'mini_swarm.egg-info/SOURCES.txt'
+[3.442s] writing manifest file 'mini_swarm.egg-info/SOURCES.txt'
+[3.484s] running build_ext
+[3.484s] Creating /home/orin-dev/ros2_ws/install/mini_swarm/lib/python3.12/site-packages/mini-swarm.egg-link (link to .)
+[3.486s] Installing swarm script to /home/orin-dev/ros2_ws/install/mini_swarm/lib/mini_swarm
+[3.486s] 
+[3.486s] Installed /home/orin-dev/ros2_ws/build/mini_swarm
+[3.486s] running symlink_data
+[3.568s] Invoked command in '/home/orin-dev/ros2_ws/build/mini_swarm' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/orin-dev/ros2_ws/build/mini_swarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-dev/ros2_ws/install/mini_swarm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin-dev/ros2_ws/build/mini_swarm/build --no-deps symlink_data

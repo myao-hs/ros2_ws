@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating mini_swarm.egg-info
+writing mini_swarm.egg-info/PKG-INFO
+writing dependency_links to mini_swarm.egg-info/dependency_links.txt
+writing entry points to mini_swarm.egg-info/entry_points.txt
+writing requirements to mini_swarm.egg-info/requires.txt
+writing top-level names to mini_swarm.egg-info/top_level.txt
+writing manifest file 'mini_swarm.egg-info/SOURCES.txt'
+reading manifest file 'mini_swarm.egg-info/SOURCES.txt'
+writing manifest file 'mini_swarm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/orin-dev/ros2_ws/install/mini_swarm/lib/python3.12/site-packages/mini-swarm.egg-link (link to .)
+Installing swarm script to /home/orin-dev/ros2_ws/install/mini_swarm/lib/mini_swarm
+
+Installed /home/orin-dev/ros2_ws/build/mini_swarm
+running symlink_data
+creating /home/orin-dev/ros2_ws/install/mini_swarm/share/ament_index
+creating /home/orin-dev/ros2_ws/install/mini_swarm/share/ament_index/resource_index
+creating /home/orin-dev/ros2_ws/install/mini_swarm/share/ament_index/resource_index/packages
+symbolically linking /home/orin-dev/ros2_ws/build/mini_swarm/resource/mini_swarm -> /home/orin-dev/ros2_ws/install/mini_swarm/share/ament_index/resource_index/packages
+symbolically linking /home/orin-dev/ros2_ws/build/mini_swarm/package.xml -> /home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm

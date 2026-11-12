@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000752] (mini_swarm) JobQueued: {'identifier': 'mini_swarm', 'dependencies': OrderedDict()}
+[0.000832] (mini_swarm) JobStarted: {'identifier': 'mini_swarm'}
+[0.099398] (-) TimerEvent: {}
+[0.199785] (-) TimerEvent: {}
+[0.300139] (-) TimerEvent: {}
+[0.400520] (-) TimerEvent: {}
+[0.500915] (-) TimerEvent: {}
+[0.601263] (-) TimerEvent: {}
+[0.701588] (-) TimerEvent: {}
+[0.801912] (-) TimerEvent: {}
+[0.902207] (-) TimerEvent: {}
+[1.002545] (-) TimerEvent: {}
+[1.102861] (-) TimerEvent: {}
+[1.203177] (-) TimerEvent: {}
+[1.303472] (-) TimerEvent: {}
+[1.403841] (-) TimerEvent: {}
+[1.504188] (-) TimerEvent: {}
+[1.604515] (-) TimerEvent: {}
+[1.704775] (-) TimerEvent: {}
+[1.805099] (-) TimerEvent: {}
+[1.905482] (-) TimerEvent: {}
+[2.005905] (-) TimerEvent: {}
+[2.106355] (-) TimerEvent: {}
+[2.206822] (-) TimerEvent: {}
+[2.307218] (-) TimerEvent: {}
+[2.407627] (-) TimerEvent: {}
+[2.508047] (-) TimerEvent: {}
+[2.559795] (mini_swarm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/orin-dev/ros2_ws/build/mini_swarm/build', '--no-deps', 'symlink_data'], 'cwd': '/home/orin-dev/ros2_ws/build/mini_swarm', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'en', 'USER': 'orin-dev', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-13.2/lib64:', 'HOME': '/home/orin-dev', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/orin-dev/ros2_ws/src/mini_swarm', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '39.2.1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson AGX Orin Developer Kit', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '4905', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/orin-dev/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'orin-dev', 'JETSON_MODULE': 'NVIDIA Jetson AGX Orin', 'JETSON_SERIAL_NUMBER': '1422122101412', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orin-dev', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/orin-dev/miniconda3/bin:/home/orin-dev/miniconda3/condabin:/usr/local/cuda-13.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/orin-dev:@/tmp/.ICE-unix/4874,unix/orin-dev:/tmp/.ICE-unix/4874', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f348ce98_d2d5_4699_9dd5_e14b1b018b67', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/orin-dev/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/orin-dev/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/orin-dev/ros2_ws/build/mini_swarm', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/orin-dev/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin-dev/ros2_ws/build/mini_swarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-dev/ros2_ws/install/mini_swarm/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'CONDA_PREFIX': '/home/orin-dev/miniconda3', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'JETSON_P_NUMBER': 'p3701-0000'}), 'shell': False}
+[2.608192] (-) TimerEvent: {}
+[2.708611] (-) TimerEvent: {}
+[2.809040] (-) TimerEvent: {}
+[2.909425] (-) TimerEvent: {}
+[3.009824] (-) TimerEvent: {}
+[3.110211] (-) TimerEvent: {}
+[3.178173] (mini_swarm) StdoutLine: {'line': b'running develop\n'}
+[3.210294] (-) TimerEvent: {}
+[3.310667] (-) TimerEvent: {}
+[3.411171] (-) TimerEvent: {}
+[3.511647] (-) TimerEvent: {}
+[3.563045] (mini_swarm) StdoutLine: {'line': b'running egg_info\n'}
+[3.563475] (mini_swarm) StdoutLine: {'line': b'creating mini_swarm.egg-info\n'}
+[3.600295] (mini_swarm) StdoutLine: {'line': b'writing mini_swarm.egg-info/PKG-INFO\n'}
+[3.600814] (mini_swarm) StdoutLine: {'line': b'writing dependency_links to mini_swarm.egg-info/dependency_links.txt\n'}
+[3.601172] (mini_swarm) StdoutLine: {'line': b'writing entry points to mini_swarm.egg-info/entry_points.txt\n'}
+[3.601582] (mini_swarm) StdoutLine: {'line': b'writing requirements to mini_swarm.egg-info/requires.txt\n'}
+[3.601858] (mini_swarm) StdoutLine: {'line': b'writing top-level names to mini_swarm.egg-info/top_level.txt\n'}
+[3.602165] (mini_swarm) StdoutLine: {'line': b"writing manifest file 'mini_swarm.egg-info/SOURCES.txt'\n"}
+[3.611733] (-) TimerEvent: {}
+[3.677449] (mini_swarm) StdoutLine: {'line': b"reading manifest file 'mini_swarm.egg-info/SOURCES.txt'\n"}
+[3.678206] (mini_swarm) StdoutLine: {'line': b"writing manifest file 'mini_swarm.egg-info/SOURCES.txt'\n"}
+[3.711833] (-) TimerEvent: {}
+[3.717610] (mini_swarm) StdoutLine: {'line': b'running build_ext\n'}
+[3.718445] (mini_swarm) StdoutLine: {'line': b'Creating /home/orin-dev/ros2_ws/install/mini_swarm/lib/python3.12/site-packages/mini-swarm.egg-link (link to .)\n'}
+[3.719752] (mini_swarm) StdoutLine: {'line': b'Installing swarm script to /home/orin-dev/ros2_ws/install/mini_swarm/lib/mini_swarm\n'}
+[3.720287] (mini_swarm) StdoutLine: {'line': b'\n'}
+[3.720598] (mini_swarm) StdoutLine: {'line': b'Installed /home/orin-dev/ros2_ws/build/mini_swarm\n'}
+[3.721026] (mini_swarm) StdoutLine: {'line': b'running symlink_data\n'}
+[3.721330] (mini_swarm) StdoutLine: {'line': b'creating /home/orin-dev/ros2_ws/install/mini_swarm/share/ament_index\n'}
+[3.721679] (mini_swarm) StdoutLine: {'line': b'creating /home/orin-dev/ros2_ws/install/mini_swarm/share/ament_index/resource_index\n'}
+[3.721945] (mini_swarm) StdoutLine: {'line': b'creating /home/orin-dev/ros2_ws/install/mini_swarm/share/ament_index/resource_index/packages\n'}
+[3.722202] (mini_swarm) StdoutLine: {'line': b'symbolically linking /home/orin-dev/ros2_ws/build/mini_swarm/resource/mini_swarm -> /home/orin-dev/ros2_ws/install/mini_swarm/share/ament_index/resource_index/packages\n'}
+[3.722458] (mini_swarm) StdoutLine: {'line': b'symbolically linking /home/orin-dev/ros2_ws/build/mini_swarm/package.xml -> /home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm\n'}
+[3.792601] (mini_swarm) CommandEnded: {'returncode': 0}
+[3.811922] (-) TimerEvent: {}
+[3.841839] (mini_swarm) JobEnded: {'identifier': 'mini_swarm', 'rc': 0}
+[3.844203] (-) EventReactorShutdown: {}

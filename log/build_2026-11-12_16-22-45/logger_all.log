@@ -1,0 +1,133 @@
+[0.201s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.201s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8aacfef0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8aacfbf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8aacfbf0>>)
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.275s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orin-dev/ros2_ws'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_swarm) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_swarm) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_swarm) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_swarm) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_swarm) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_swarm) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_swarm) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_swarm) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_swarm) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini_swarm' with type 'ros.ament_python' and name 'mini_swarm'
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.368s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/orin-dev/ros2_ws/install
+[0.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 320 installed packages in /opt/ros/jazzy
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'mini_swarm' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'mini_swarm' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'mini_swarm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'mini_swarm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'mini_swarm' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'mini_swarm' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'mini_swarm' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'mini_swarm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'mini_swarm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'mini_swarm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin-dev/ros2_ws/build/mini_swarm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin-dev/ros2_ws/install/mini_swarm', 'merge_install': False, 'path': '/home/orin-dev/ros2_ws/src/mini_swarm', 'symlink_install': True, 'test_result_base': None}
+[0.459s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.461s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orin-dev/ros2_ws/src/mini_swarm' with build type 'ament_python'
+[0.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_swarm', 'ament_prefix_path')
+[0.465s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm/hook/ament_prefix_path.ps1'
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm/hook/ament_prefix_path.dsv'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm/hook/ament_prefix_path.sh'
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.901s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orin-dev/ros2_ws/src/mini_swarm'
+[0.902s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.074s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_clib, editable_wheel, install_headers, check, init_catalog, build_py, install_scripts, compile_catalog, setopt, update_catalog, bdist_dumb, test, saveopts, upload, install_data, sdist, bdist_wheel, easy_install, symlink_data, install_egg_info, build_scripts, clean, build, build_ext, install, dist_info, upload_docs, alias, register, bdist_rpm, develop, extract_messages, bdist, egg_info, rotate, bdist_egg, install_lib
+[2.747s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --optimize, --user, --prefix, --always-unzip, --build-directory, --script-dir, --force-installation-into-system-dir, --always-copy, --upgrade, --index-url, --allow-hosts, --install-dir, --egg-path, --site-dirs, --record, --uninstall, --no-find-links, --no-user-cfg, --verbose, --exclude-scripts, --version, --install-layout, --help, --local-snapshots-ok, --zip-ok, --editable, --quiet, --no-deps, --multi-version, --dry-run, --find-links
+[2.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin-dev/ros2_ws/build/mini_swarm': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/orin-dev/ros2_ws/build/mini_swarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-dev/ros2_ws/install/mini_swarm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin-dev/ros2_ws/build/mini_swarm/build --no-deps symlink_data
+[4.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_swarm', 'pythonpath_develop')
+[4.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-dev/ros2_ws/build/mini_swarm/share/mini_swarm/hook/pythonpath_develop.ps1'
+[4.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin-dev/ros2_ws/build/mini_swarm' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/orin-dev/ros2_ws/build/mini_swarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin-dev/ros2_ws/install/mini_swarm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin-dev/ros2_ws/build/mini_swarm/build --no-deps symlink_data
+[4.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin-dev/ros2_ws/build/mini_swarm/share/mini_swarm/hook/pythonpath_develop.dsv'
+[4.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-dev/ros2_ws/build/mini_swarm/share/mini_swarm/hook/pythonpath_develop.sh'
+[4.041s] Level 1:colcon.colcon_core.environment:checking '/home/orin-dev/ros2_ws/install/mini_swarm' for CMake module files
+[4.043s] Level 1:colcon.colcon_core.environment:checking '/home/orin-dev/ros2_ws/install/mini_swarm' for CMake config files
+[4.045s] Level 1:colcon.colcon_core.environment:checking '/home/orin-dev/ros2_ws/install/mini_swarm/lib'
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/orin-dev/ros2_ws/install/mini_swarm/bin'
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/orin-dev/ros2_ws/install/mini_swarm/lib/pkgconfig/mini_swarm.pc'
+[4.047s] Level 1:colcon.colcon_core.environment:checking '/home/orin-dev/ros2_ws/install/mini_swarm/lib/python3.12/site-packages'
+[4.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_swarm', 'pythonpath')
+[4.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm/hook/pythonpath.ps1'
+[4.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm/hook/pythonpath.dsv'
+[4.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm/hook/pythonpath.sh'
+[4.054s] Level 1:colcon.colcon_core.environment:checking '/home/orin-dev/ros2_ws/install/mini_swarm/bin'
+[4.054s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_swarm)
+[4.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm/package.ps1'
+[4.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm/package.dsv'
+[4.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm/package.sh'
+[4.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm/package.bash'
+[4.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin-dev/ros2_ws/install/mini_swarm/share/mini_swarm/package.zsh'
+[4.069s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin-dev/ros2_ws/install/mini_swarm/share/colcon-core/packages/mini_swarm)
+[4.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.071s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.081s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.081s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.081s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.119s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.120s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin-dev/ros2_ws/install/local_setup.ps1'
+[4.121s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orin-dev/ros2_ws/install/_local_setup_util_ps1.py'
+[4.124s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin-dev/ros2_ws/install/setup.ps1'
+[4.125s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin-dev/ros2_ws/install/local_setup.sh'
+[4.126s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orin-dev/ros2_ws/install/_local_setup_util_sh.py'
+[4.128s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin-dev/ros2_ws/install/setup.sh'
+[4.129s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin-dev/ros2_ws/install/local_setup.bash'
+[4.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin-dev/ros2_ws/install/setup.bash'
+[4.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin-dev/ros2_ws/install/local_setup.zsh'
+[4.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin-dev/ros2_ws/install/setup.zsh'

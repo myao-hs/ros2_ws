@@ -1,0 +1,2 @@
+[console_scripts]
+swarm = mini_swarm.swarm:main

@@ -1,0 +1,9 @@
+source;share/mini_swarm/hook/pythonpath.ps1
+source;share/mini_swarm/hook/pythonpath.dsv
+source;share/mini_swarm/hook/pythonpath.sh
+source;share/mini_swarm/hook/ament_prefix_path.ps1
+source;share/mini_swarm/hook/ament_prefix_path.dsv
+source;share/mini_swarm/hook/ament_prefix_path.sh
+source;../../build/mini_swarm/share/mini_swarm/hook/pythonpath_develop.ps1
+source;../../build/mini_swarm/share/mini_swarm/hook/pythonpath_develop.dsv
+source;../../build/mini_swarm/share/mini_swarm/hook/pythonpath_develop.sh
